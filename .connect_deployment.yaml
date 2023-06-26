@@ -1,12 +1,13 @@
-package_id: gerard.package.id
+package_id: package.gerard.demo
 icon: icon.png          # absolute path from root directory
 name: Extension name
 env: development                # one of [development, test, production]
 type: multiaccount              # one of [multiaccount, transformations]
-tag: 1.0
+tag: 1.2
 var:
   MY_VAR:
     value: VALUE
     secure: false
   MY_OTHER_VAR:
+    value: OTHER_VALUE
     secure: true
